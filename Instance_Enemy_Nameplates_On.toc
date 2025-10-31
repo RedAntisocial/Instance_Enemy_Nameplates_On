@@ -1,0 +1,11 @@
+## Interface: 110205, 110207, 120000
+## Title: Instance Enemy Nameplates On
+## Notes: Turns on all enemy nameplates in instances, and back to combat-only outside.
+## Author: Periago - Dalaran
+## Version: 1.0.5
+## IconTexture: Interface\Icons\inv_relics_runestone
+## Category: Dungeons & Raids
+## X-Curse-Project-ID: 1358819
+## X-WoWI-ID: 
+## X-Wago-ID: 
+Instance_Enemy_Nameplates_On.lua
