@@ -9,12 +9,13 @@ IENOF:RegisterEvent("ZONE_CHANGED")
 local function IENO_UpdateNameplates()
     local inInstance = IsInInstance()
     if inInstance then
-        SetCVar("nameplateShowAll", 1)
+        SetCVar("nameplateShowAll", "1")
     else
-        SetCVar("nameplateShowAll", 0)
+        SetCVar("nameplateShowAll", "0")
     end
 end
 
 IENOF:SetScript("OnEvent", function(self, event, ...)
     IENO_UpdateNameplates()
 end)
+
